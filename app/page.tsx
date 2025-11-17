@@ -414,9 +414,6 @@ export default function Home() {
                 placeholder="Ihre E-Mail"
                 className="flex-1 px-4 py-3 rounded-l-lg text-black focus:outline-none"
               />
-              <button className="bg-[#DB1C08] px-6 py-3 rounded-r-lg font-semibold hover:bg-red-700">
-                Abonnieren
-              </button>
             </div>
           </div>
         </div>
