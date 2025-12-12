@@ -1,11 +1,11 @@
 // components/Hero.tsx
 import Image from "next/image";
-
+import Background from "@/public/images/Untitled Design/CTDesign2.jpeg";
 export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center">
       <Image
-        src="/images/CTDesign2.jpeg"
+        src={Background}
         alt="Luxus Weltreisen"
         fill
         priority
