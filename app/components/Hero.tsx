@@ -4,12 +4,10 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center">
-      <Image
+      <img
         src="/images/Untitled design/CT_New.jpeg"
         alt="Luxus Weltreisen"
-        fill
-        priority
-        className="object-cover"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
       <div className="absolute inset-0 bg-black/60"></div>
